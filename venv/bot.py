@@ -31,4 +31,4 @@ def give_order_list(message):
         result = bytes(byteArr)
         bot.reply_to(message, result)
 
-bot.polling()
+bot.polling(none_stop=True)
